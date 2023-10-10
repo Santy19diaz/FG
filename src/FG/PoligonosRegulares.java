@@ -30,6 +30,14 @@ public class PoligonosRegulares extends FigurasGeometricas{
         this.apotema = apotema;
     }
 
+    public void setLado(float lado){
+        super.setSide1(lado);
+    }
+
+    public float getLado(){
+        return super.getSide1();
+    }
+
     @Override
     public float getPerimeter() {
         return super.getSide1()*nLados;

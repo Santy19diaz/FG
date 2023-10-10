@@ -20,6 +20,30 @@ public class Romboide extends Cuadrado{
         super(lado);
     }
 
+    public float getDiagonalMayor() {
+        return diagonalMayor;
+    }
+
+    public void setDiagonalMayor(float diagonalMayor) {
+        this.diagonalMayor = diagonalMayor;
+    }
+
+    public float getDiagonalMenor() {
+        return diagonalMenor;
+    }
+
+    public void setDiagonalMenor(float diagonalMenor) {
+        this.diagonalMenor = diagonalMenor;
+    }
+
+    public void setLado(float lado){
+        super.setLado(lado);
+    }
+
+    public float getLado(){
+        return super.getLado();
+    }
+
     @Override
     public float getPerimeter() {
         return super.getLado()*4;
